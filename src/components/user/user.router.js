@@ -1,14 +1,18 @@
 import express from 'express';
 
 class UserRouter {
-  constructor(userController) {
+  constructor(userController, authMiddleware) {
     this.userController = userController;
+    this.authMiddleware = authMiddleware;
   }
 
-  getRouter() {
+  get router() {
     const router = express.Router();
     router.route('/:id').get(this.userController.getUser);
-    router.route('/').get(this.userController.getUsers);
+    router
+      .use(this.authMiddleware.authorize)
+      .route('/')
+      .get(this.userController.getUsers);
     router.route('/').post(this.userController.createUser);
     return router;
   }

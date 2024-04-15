@@ -1,5 +1,5 @@
-# Integrating Prisma with Express in a Clean and Scalable Manner
-Learn how to seamlessly integrate Prisma with Express for a clean and scalable Node.js backend. Explore efficient data modeling, type-safe operations, and robust database interactions.
+# Adding Authentication to Your Prisma-Integrated Express Application
+Secure your Express app with rock-solid authentication! Learn to use password hashing and JWTs for user authentication.
 
 # Installation
 You can follow this tutorial and understand how this project work on this medium [link](https://medium.com/@csalazar94/integrating-prisma-with-express-in-a-clean-and-scalable-manner-d10b9c9767d3).

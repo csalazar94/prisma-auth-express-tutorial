@@ -2,7 +2,7 @@
 Secure your Express app with rock-solid authentication! Learn to use password hashing and JWTs for user authentication.
 
 # Installation
-You can follow this tutorial and understand how this project work on this medium [link](https://medium.com/@csalazar94/integrating-prisma-with-express-in-a-clean-and-scalable-manner-d10b9c9767d3).
+You can follow this tutorial and understand how this project work on this medium [link](https://medium.com/@csalazar94/adding-authentication-to-your-prisma-integrated-express-application-d92eaa200c5f).
 
 ```
 npm install
